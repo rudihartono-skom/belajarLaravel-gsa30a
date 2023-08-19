@@ -1,0 +1,44 @@
+:root{
+    --warna-bg-primary: #fe3103;
+    --warna-text-primary: #fe3103;
+    --warna-bg: black;
+    --font1: 'Roboto Condensed', sans-serif;
+    --font2: 'Sacramento', cursive;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-orange{
+    background-color: var(--warna-bg-primary);
+}
+
+.navbar-brand, .offcanvas-title{
+    font-weight: 600;
+}
+
+.header{
+    background-image: url(img/bg-header.webp);
+    padding: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.header::after{
+    background-color: rgba(0, 0, 0, 1);
+    padding: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.judul-header{
+    color: var(--warna-text-primary);
+    font-weight: 600;
+    font-size: 80px;
+    text-shadow: 1px 1px black;
+}
+
+.btn-pink{
+    background-color: pink;
+}
